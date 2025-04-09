@@ -39,7 +39,7 @@ class DetailPage extends StatelessWidget {
                   Icon(CupertinoIcons.location),
                   SizedBox(width: 10),
                   Text(
-                    'HO CHI MINH CITY',
+                    '${context.read<WeatherProvider>().cityName}',
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
